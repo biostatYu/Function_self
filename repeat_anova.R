@@ -1,5 +1,5 @@
 
-repeat.anova = function(data,n.g,n.t,N){
+repeat.anova <- function(data,n.g,n.t,N){
 
 	if (!requireNamespace("tidyverse", quietly = TRUE))
 	    install.packages("tidyverse")
